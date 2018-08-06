@@ -29,7 +29,7 @@ body {
 
 /* Come In */
 .come-in {
-  transform: translateY(150px);
+  transform: translateY(190px);
   animation: come-in 1s ease forwards;
 }
 
