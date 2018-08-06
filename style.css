@@ -47,3 +47,83 @@ body {
     transform: translateY(0);
   }
 }
+
+/* Product view */
+.ft_o {
+  font-family: "Oswald", sans-serif;
+}
+.row > * {
+  position: relative;
+}
+a.ln {
+  color: #333333;
+  text-decoration: none;
+}
+.blk {
+  position: absolute;
+  background-color: #333;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  color: #ffffff;
+  margin-bottom: -60px;
+  width: 120px;
+}
+.blk p {
+  font-size: 0.8em;
+  margin-bottom: 4px;
+}
+.blk h6 {
+  font-weight: 800;
+}
+.clk {
+  position: absolute;
+  padding: 15px;
+  color: #ffffff;
+  margin-right: -120px;
+  width: 260px;
+  top: 0;
+  right: 0;
+  margin-top: -100px;
+  color: #333333;
+  background-color: transparent;
+}
+.clk h2 {
+  font-weight: 800;
+  font-size: 4em;
+}
+.flk {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  margin-bottom: -60px;
+  width: auto;
+  color: #333333;
+  background-color: transparent;
+  margin-bottom: 0;
+}
+.flk h5 {
+  font-size: 0.6em;
+  font-weight: 800;
+  padding-bottom: 4px;
+}
+.flk h6 {
+  font-size: 0.8em;
+  text-align: justify;
+}
+.m60 {
+  margin-top: 60px;
+}
+@media only screen and (max-width: 600px) {
+  .row > .mo:nth-child(3),
+  .row > .mo:nth-child(4) {
+    margin-top: 132px;
+  }
+  .flk h5 {
+    font-size: 0.8em;
+  }
+  .flk h6 {
+    font-size: 1em;
+  }
+}
